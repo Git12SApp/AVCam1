@@ -7,21 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		732FBB551FF723BE006DE8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732FBB541FF723BE006DE8EB /* AppDelegate.swift */; };
-		732FBB571FF723BE006DE8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732FBB561FF723BE006DE8EB /* ViewController.swift */; };
-		732FBB5A1FF723BE006DE8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732FBB581FF723BE006DE8EB /* Main.storyboard */; };
-		732FBB5C1FF723BE006DE8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732FBB5B1FF723BE006DE8EB /* Assets.xcassets */; };
-		732FBB5F1FF723BE006DE8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732FBB5D1FF723BE006DE8EB /* LaunchScreen.storyboard */; };
+		732FBB671FF72895006DE8EB /* Objective-C in Resources */ = {isa = PBXBuildFile; fileRef = 732FBB661FF72894006DE8EB /* Objective-C */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		732FBB511FF723BE006DE8EB /* AVCam1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCam1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		732FBB541FF723BE006DE8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		732FBB561FF723BE006DE8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		732FBB591FF723BE006DE8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		732FBB5B1FF723BE006DE8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		732FBB5E1FF723BE006DE8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		732FBB601FF723BE006DE8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732FBB511FF723BE006DE8EB /* AVCam1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AVCam1.app; path = "/Users/jamesburton/Desktop/AVCamera-One/AVCam1/build/Debug-iphoneos/AVCam1.app"; sourceTree = "<absolute>"; };
+		732FBB661FF72894006DE8EB /* Objective-C */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Objective-C"; path = "../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,30 +29,8 @@
 		732FBB481FF723BE006DE8EB = {
 			isa = PBXGroup;
 			children = (
-				732FBB531FF723BE006DE8EB /* AVCam1 */,
-				732FBB521FF723BE006DE8EB /* Products */,
+				732FBB661FF72894006DE8EB /* Objective-C */,
 			);
-			sourceTree = "<group>";
-		};
-		732FBB521FF723BE006DE8EB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				732FBB511FF723BE006DE8EB /* AVCam1.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		732FBB531FF723BE006DE8EB /* AVCam1 */ = {
-			isa = PBXGroup;
-			children = (
-				732FBB541FF723BE006DE8EB /* AppDelegate.swift */,
-				732FBB561FF723BE006DE8EB /* ViewController.swift */,
-				732FBB581FF723BE006DE8EB /* Main.storyboard */,
-				732FBB5B1FF723BE006DE8EB /* Assets.xcassets */,
-				732FBB5D1FF723BE006DE8EB /* LaunchScreen.storyboard */,
-				732FBB601FF723BE006DE8EB /* Info.plist */,
-			);
-			path = AVCam1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,7 +78,7 @@
 				Base,
 			);
 			mainGroup = 732FBB481FF723BE006DE8EB;
-			productRefGroup = 732FBB521FF723BE006DE8EB /* Products */;
+			productRefGroup = 732FBB481FF723BE006DE8EB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -123,9 +92,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732FBB5F1FF723BE006DE8EB /* LaunchScreen.storyboard in Resources */,
-				732FBB5C1FF723BE006DE8EB /* Assets.xcassets in Resources */,
-				732FBB5A1FF723BE006DE8EB /* Main.storyboard in Resources */,
+				732FBB671FF72895006DE8EB /* Objective-C in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +103,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732FBB571FF723BE006DE8EB /* ViewController.swift in Sources */,
-				732FBB551FF723BE006DE8EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		732FBB581FF723BE006DE8EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				732FBB591FF723BE006DE8EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		732FBB5D1FF723BE006DE8EB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				732FBB5E1FF723BE006DE8EB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		732FBB611FF723BE006DE8EB /* Debug */ = {
