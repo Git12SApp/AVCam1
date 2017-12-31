@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		732FBB671FF72895006DE8EB /* Objective-C in Resources */ = {isa = PBXBuildFile; fileRef = 732FBB661FF72894006DE8EB /* Objective-C */; };
+		732FBB691FF85F3E006DE8EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 732FBB681FF85F3E006DE8EB /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		732FBB511FF723BE006DE8EB /* AVCam1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AVCam1.app; path = "/Users/jamesburton/Desktop/AVCamera-One/AVCam1/build/Debug-iphoneos/AVCam1.app"; sourceTree = "<absolute>"; };
 		732FBB661FF72894006DE8EB /* Objective-C */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Objective-C"; path = "../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C"; sourceTree = "<group>"; };
+		732FBB681FF85F3E006DE8EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 		732FBB481FF723BE006DE8EB = {
 			isa = PBXGroup;
 			children = (
+				732FBB681FF85F3E006DE8EB /* Default-568h@2x.png */,
 				732FBB661FF72894006DE8EB /* Objective-C */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				732FBB671FF72895006DE8EB /* Objective-C in Resources */,
+				732FBB691FF85F3E006DE8EB /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
